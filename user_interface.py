@@ -60,7 +60,7 @@ def user_choice():
                 log.log_output_journal_csv()
             elif add_choice == '2':
                 log.log_output_journal()
-        
+
         print('''Choose another operation:
         1. Add
         2. Edit

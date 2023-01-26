@@ -101,11 +101,10 @@ def create_student():
     for key in all_students:
         data = f'{key}: {all_students[key]}'
         record_to_file(data)
-    
+
     log.log_input_data('New student added to database')
     print(all_classes)
     print(all_students[id_student])
-    
 
 
 def edit_student():
@@ -128,6 +127,7 @@ def edit_student():
     log.log_input_data('Info about student updated')
     print(all_students[id_student])
 
+
 def delete_student():
     log.log_input_data('Deletion info about a student requested by user')
     student_id = int(input("Enter student's id: "))
@@ -142,6 +142,7 @@ def delete_student():
     log.log_input_data('Info about student deleted')
     print(all_classes)
     print(all_students)
+
 
 def change_class():
     log.log_input_data("Change of a student's class requested by user")
@@ -163,8 +164,10 @@ def change_class():
     print(all_classes)
     print(all_students[id_student])
 
+
 def final_vers_all_classes():
     return all_classes
+
 
 def final_vers_all_students():
     return all_students
