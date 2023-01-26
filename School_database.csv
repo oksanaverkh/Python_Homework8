@@ -1,0 +1,12 @@
+{'4a': [1, 4, 5], '5b': [2, 3, 6, 8], '5a': [7, 10, 11], '4b': [9]}
+1:['Petrovskiy', 'Igor', 'Chon', '29.12.2012', '8-990-431-38-66', 'Moscow, Maroseyka str, 89, 25', '4a']
+2:['Tyan', 'Pak', 'Albertovich', '18.08.2012', '8-921-532-86-67', 'Moscow, Ilyinka str, 56, 56', '5b']
+3:['Van Dejk', 'Virgil', 'Markovich', '06.05.2012', '8-985-922-13-73', 'Moscow, Maroseyka str, 82, 33', '5b']
+4:['Kjaer', 'Ir', 'Chon', '18.06.2012', '8-935-450-48-16', 'Moscow, Lubyanka str, 43, 87', '4a']
+5:['Fox', 'Pak', 'Matveevich', '11.10.2011', '8-973-695-87-83', 'Moscow, Lubyanka str, 74, 100', '4a']
+6:['Lim', 'Pak', 'Mikhailovich', '17.02.2013', '8-910-534-36-74', 'Moscow, Ilyinka str, 79, 73', '5b']
+7:['Larsson', 'Ir', 'Chon', '08.10.2011', '8-996-272-78-83', 'Moscow, Ilyinka str, 77, 54', '5a']
+8:['Kjaer', 'Pak', 'Petrovich', '30.11.2014', '8-966-589-84-99', 'Moscow, Znamenka str, 97, 29', '5b']
+9:['Kim', 'Artemiy', 'An', '27.01.2013', '8-901-654-58-28', 'Moscow, Lubyanka str, 14, 9', '4b']
+10:['Lim', 'Pak', 'An', '06.07.2012', '8-987-557-14-59', 'Moscow, Znamenka str, 12, 19', '5a']
+11:['Fox', 'Gwan', 'Ilnurovich', '30.09.2012', '8-924-336-17-91', 'Moscow, Ilyinka str, 46, 12', '5a']

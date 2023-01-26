@@ -1,12 +1,11 @@
+from datetime import datetime as dt
 
-
-def write_data(data):
+def log_input_data(data):
+    time = dt.now().strftime('%d/%m/%Y %H:%M')
     with open('log.txt', 'a', encoding='utf=8') as file:
-        file.write(data + '\n')
+        file.write('{}:{}\n'
+                .format(time, str(data)))
 
-
-def log_input_data():
-    pass
 
 def log_output_journal():
     pass
