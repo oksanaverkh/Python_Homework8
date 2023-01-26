@@ -71,5 +71,5 @@ def user_choice():
         7. Exit''')
         choice = ic.check_input_1()
 
-    if choice == '6':
+    if choice == '7':
         return
