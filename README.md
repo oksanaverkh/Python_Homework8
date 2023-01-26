@@ -1,5 +1,6 @@
 School database is forming in random order when the program starts.
 File with database is cleared before each start for convenient work.
+The user can choose several operations successively until exit has been chosen.
 
 Options available for the user while working with this database:
 
@@ -13,6 +14,4 @@ Options available for the user while working with this database:
 5. View logging journal:
     * in .csv file
     * in terminal
-
-Also, the user can choose several operations successively until exit has been choosen.
 
