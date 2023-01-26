@@ -1,6 +1,7 @@
 import export_data as ed
 import import_data as id
 import input_check as ic
+import logger as log
 
 
 def user_choice():
@@ -10,9 +11,10 @@ def user_choice():
         3. Delete
         4. Print to console
         5. Export
-        6. Exit''')
+        6. View logging journal
+        7. Exit''')
     choice = ic.check_input_1()
-    while choice != '6':
+    while choice != '7':
         if choice == '1':
             print('''Choose an operation:
                 1. Add a student
@@ -48,6 +50,16 @@ def user_choice():
                 ed.export_to_csv()
             elif add_choice == '2':
                 ed.export_to_html()
+
+        elif choice == '6':
+            print('''Choose an operation:
+                1. Export to .csv file
+                2. Print to console''')
+            add_choice = ic.check_input_2()
+            if add_choice == '1':
+                log.log_output_journal_csv()
+            elif add_choice == '2':
+                log.log_output_journal()
         
         print('''Choose another operation:
         1. Add
@@ -55,7 +67,8 @@ def user_choice():
         3. Delete
         4. Print to console
         5. Export
-        6. Exit''')
+        6. View logging journal
+        7. Exit''')
         choice = ic.check_input_1()
 
     if choice == '6':
